@@ -27,7 +27,7 @@ const ConversionHero = () => {
         {/* Logo Section */}
         <div className="flex items-center gap-3 mb-12">
           
-             <img src="/leadequator_logo.png" alt="logo" className="w-10 h-10 object-contain" />
+             <img src="./assets/leadequator_logo.png" alt="logo" className="w-10 h-10 object-contain" />
           <span className="text-white text-xl font-bold tracking-tight">Leadequator</span>
         </div>
 

@@ -35,7 +35,7 @@ const Navigation = () => {
           >
             {/* Using Bot icon as placeholder for the logo */}
             <img
-              src="/leadequator_logo.png"
+              src="./assets/leadequator_logo.png"
               alt="leadequator"
               height={50}
               width={50}

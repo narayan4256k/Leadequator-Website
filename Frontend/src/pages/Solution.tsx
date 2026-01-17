@@ -41,7 +41,7 @@ const Solution = () => {
                 <div className="absolute -inset-1 bg-amber-500 rounded-xl blur opacity-25 group-hover:opacity-50 transition duration-1000"></div>
                 <div className="relative bg-black border border-zinc-700 p-1 rounded-xl flex items-center justify-center w-16 h-16">
                    {/* Using Bot icon as placeholder for the logo */}
-                   <img src='/leadequator_logo.png' alt='leadequator' height={200} width={200}  />
+                   <img src='./assets/leadequator_logo.png' alt='leadequator' height={200} width={200}  />
                 </div>
               </div>
             </div>
