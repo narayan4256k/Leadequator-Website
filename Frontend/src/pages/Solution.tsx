@@ -3,7 +3,6 @@ import { MessageSquare, TrendingUp, Shield, Bot } from "lucide-react";
 import { AuroraText } from "@/components/ui/aurora-text";
 import { ShineBorder } from "@/components/ui/shine-border";
 import { ScrollProgress } from "@/components/ui/scroll-progress";
-import leadequatorLogo from "@/assets/leadequator_logo.png"; // adjust path as needed
 
 const Solution = () => {
   return (
@@ -44,7 +43,7 @@ const Solution = () => {
                 <div className="relative bg-black border border-zinc-700 p-1 rounded-xl flex items-center justify-center w-16 h-16">
                   {/* Using Bot icon as placeholder for the logo */}
                   <img
-                    src={leadequatorLogo}
+                    src="/leadequator_logo.png"
                     alt="Leadequator"
                     className="w-16 h-16 object-contain"
                   />

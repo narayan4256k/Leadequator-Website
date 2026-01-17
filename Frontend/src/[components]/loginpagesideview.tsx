@@ -1,7 +1,6 @@
 import React from "react";
 import { ShieldCheck, CheckCircle2, Users2 } from "lucide-react";
 import { motion } from "framer-motion";
-import leadequatorLogo from "@/assets/leadequator_logo.png"; // adjust path as needed
 
 const ConversionHero = () => {
   const features = [
@@ -28,7 +27,7 @@ const ConversionHero = () => {
         {/* Logo Section */}
         <div className="flex items-center gap-3 mb-12">
           <img
-            src={leadequatorLogo}
+            src="/leadequator_logo.png"
             alt="Leadequator"
             className="w-16 h-16 object-contain"
           />

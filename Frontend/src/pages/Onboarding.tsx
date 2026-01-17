@@ -2,13 +2,6 @@ import React, { useState, useEffect } from "react";
 import { useNavigate, Link } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
 import { useUser } from "@clerk/clerk-react";
-import leadequatorLogo from "@/assets/leadequator_logo.png"; // adjust path as needed
-
-<img
-  src={leadequatorLogo}
-  alt="Leadequator"
-  className="w-16 h-16 object-contain"
-/>;
 
 // Components
 import OnboardingProgress from "@/components/onboarding/OnboardingProgress";
@@ -71,7 +64,7 @@ const Onboarding = () => {
 
     const loadProgress = async () => {
       const res = await fetch(
-        `http://localhost:4000/api/onboarding/progress?userId=${user.id}`,
+        `http://localhost:4000/api/onboarding/progress?userId=${user.id}`
       );
 
       const data = await res.json();
@@ -171,7 +164,11 @@ const Onboarding = () => {
       <div className="container mx-auto px-4 py-8">
         <div className="flex justify-center mb-8">
           <Link to="/" className="flex items-center gap-3">
-            <img src={logo} className="h-10" />
+            <img
+              src="/leadequator_logo.png"
+              alt="Leadequator"
+              className="h-10"
+            />
             <span className="text-xl font-bold">Leadequator</span>
           </Link>
         </div>
